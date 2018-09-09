@@ -43,7 +43,8 @@ To:
 * Change from `npm` to `yarn`. As `package-lock.json` automatic upgrade modules without permission.
 * Add `.gitattributes` to automatic change into LF as Windows, Mac, Unix users have different lifebreaks setting.
 * Upgrade `.eslintrc.json` and move into `src` folder as only need to add linter into this folder.
-* Add `store/action` folders to seperate actions
+* Add `store/action` folders to seperate actions.
+* Add `Router`,`Provider` wrapper and setup redux/middleware boilerplate in `src/index.js`
 * Added new modules into this version:
    1. csslint : CSS Linter 
    2. redux-form: Ready to use Redux for Form.
