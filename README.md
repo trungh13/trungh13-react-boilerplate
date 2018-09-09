@@ -33,9 +33,21 @@ To:
 ```
 ## 
 
-#### v0.1 create-react-app & install css-modules
+## Version
+### v0.1 create-react-app & install css-modules
 * initial boilerplate bootstrap by create-react-app
 * npm eject and modify files to use css-modules ([link to instruction](https://medium.com/nulogy/how-to-use-css-modules-with-create-react-app-9e44bec2b5c2))
+### v0.2 No more eject.
 
+* Take `css-module` out, so no more eject.
+* Change from `npm` to `yarn`. As `package-lock.json` automatic upgrade modules without permission.
+* Add `.gitattributes` to automatic change into LF as Windows, Mac, Unix users have different lifebreaks setting.
+* Upgrade `.eslintrc.json` and move into `src` folder as only need to add linter into this folder.
+* Add `store/action` folders to seperate actions
+* Added new modules into this version:
+   1. csslint : CSS Linter 
+   2. redux-form: Ready to use Redux for Form.
+   3. redux-thunk: Write action creators that return a function instead of an action
+   
 ---
 ©2018 Trung Hoang. Visit me on <a href="https://github.com/trungh13/">Github :octocat:</a> 
